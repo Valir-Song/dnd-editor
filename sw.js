@@ -2,7 +2,7 @@
 // build-site.mjs fills the placeholders; the version in CACHE makes every release a new worker.
 const CHANNEL = 'stable';
 const CACHE = 'dnd-editor-' + CHANNEL + '-3.11.0-beta.15';
-const FILES = ["./","manifest.webmanifest","icon.svg","icon-192.png","icon-512.png"];
+const FILES = ["./","manifest.webmanifest","icon.svg","icon-192.png","icon-512.png","file-icon.svg","file-icon-256.png"];
 const SCOPE = new URL('./', self.location.href).href;
 // Another channel lives in a subfolder of this one (beta/ under the main editor): leave it alone.
 const OTHERS = ["beta/"].map(path => SCOPE + path);
