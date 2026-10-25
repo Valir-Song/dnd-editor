@@ -1,7 +1,7 @@
 // Service worker of the hosted editor: keeps the one-page editor usable offline.
 // build-site.mjs fills the placeholders; the version in CACHE makes every release a new worker.
 const CHANNEL = 'beta';
-const CACHE = 'dnd-editor-' + CHANNEL + '-3.11.0-beta.14';
+const CACHE = 'dnd-editor-' + CHANNEL + '-3.11.0-beta.15';
 const FILES = ["./","manifest.webmanifest","icon-beta.svg","icon-beta-192.png","icon-beta-512.png"];
 const SCOPE = new URL('./', self.location.href).href;
 // Another channel lives in a subfolder of this one (beta/ under the main editor): leave it alone.
