@@ -2,7 +2,7 @@
   "id": "./",
   "name": "D&D Card Editor — бета",
   "short_name": "Листы D&D β",
-  "description": "Редактор листов персонажа D&D 5e. Работает без интернета. Версия 3.11.0-beta.15.",
+  "description": "Редактор листов персонажа D&D 5e. Работает без интернета. Версия 3.11.0-beta.17.",
   "lang": "ru",
   "start_url": "./",
   "scope": "./",
@@ -36,8 +36,13 @@
       },
       "icons": [
         {
-          "src": "icon-beta-192.png",
-          "sizes": "192x192",
+          "src": "file-icon.svg",
+          "sizes": "any",
+          "type": "image/svg+xml"
+        },
+        {
+          "src": "file-icon-256.png",
+          "sizes": "256x256",
           "type": "image/png"
         }
       ]
